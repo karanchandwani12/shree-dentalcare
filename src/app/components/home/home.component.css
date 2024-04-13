@@ -1,0 +1,49 @@
+#home1 {
+    border: 2px solid black;
+    padding: 25px;
+    background: url('../../../assets/home_1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .line {
+    border-bottom: 2px solid rgb(7, 7, 7);
+    margin-top: 1px;
+    width: 100%;
+}
+.line2 {
+    border-bottom: 2px solid rgb(217, 217, 217);
+    margin-top: 1px;
+    width: 30%;
+}
+
+.horizontal_line {
+    background-color: green;
+    width: 90%;
+    height: 5px;
+    border-top: 5px dotted black;
+    line-height: 80%;
+}
+  
+
+#slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  /* Clear floats after the columns */
+
+  #prev, #next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
